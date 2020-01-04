@@ -56,9 +56,9 @@ array = np.random.random((1,3,3,3,3))
 
 # Properties of ndarray
 
-print("Array shape" , array.shape)
-print("Array dType" , array.dtype)
-print("Array asType" , array.astype)
+#print("Array shape" , array.shape)
+#print("Array dType" , array.dtype)
+#print("Array asType" , array.astype)
 
 
 shape_array = np.array([1,2,3])
@@ -67,4 +67,8 @@ shape_array.shape = (1,3)
 shape_array.shape = (3,1) # This does not give error , even if the rows and columns are changed (inter changed ) . Because 
 #even though interchanged the number of elements remain same
 shape_array.reshape(1,3) # also we can use the method reshape to reshape the array
-print(shape_array)
+#print(shape_array)
+
+
+
+#Indexing and slicing the array
