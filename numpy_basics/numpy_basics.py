@@ -4,10 +4,13 @@ import numpy as np
 
 array = np.array([[2,3],[4,5]],np.int32)  # This is a two dimensional array with two rows and two columns
 array = np.array([[7,5,4,3,5],[4,5,7,8,2],[1,4,3,5,6]])  # this is a two dimensional array with three rows and five columns
-array = np.random.random((1,3,3,3,3)) # interpreting this - the first index always tells the number of rows 
+
+
+array = np.random.random((1,3,3,3,3)) 
+# interpreting this - the first index always tells the number of rows 
 # the above array has 1 row
-# in that row there three set of matrices
-# with each set of matrix  having three matrices
+# in that row there three sets
+# with each set having  a set of three matrices
 # with each matrix having 3 columns and three rows  (1,3,3,3,3) - Read from left to right
 # visually represented as below
 """ [[[[[0.09838387 0.9405899  0.02053033]
